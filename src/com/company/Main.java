@@ -8,6 +8,7 @@ public class Main {
         medic.ability();
         medic.damage();
         medic.superAbility();
+        medic.draw();
 
         System.out.println("____________");
 
@@ -16,6 +17,7 @@ public class Main {
         magic.ability();
         magic.damage();
         magic.superAbility();
+        magic.draw();
 
         System.out.println("____________");
 
@@ -24,6 +26,7 @@ public class Main {
         warrior.ability();
         warrior.damage();
         warrior.superAbility();
+        warrior.draw();
 
         System.out.println("__________________");
 
@@ -31,5 +34,6 @@ public class Main {
         HavingSuperAbility[] havingSuperAbility = {medic, magic, warrior};
         for (int i = 0; i < havingSuperAbility.length; i++) {
             havingSuperAbility[i].superAbility();
+            havingSuperAbility[i].draw();
     }
 }}

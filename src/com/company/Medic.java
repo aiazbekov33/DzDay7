@@ -7,6 +7,11 @@ public class Medic extends Hero {
     }
 
     @Override
+    public void draw() {
+        System.out.println("\uD83D\uDC68\u200D\uD83D\uDCBB");
+    }
+
+    @Override
     void health() {
         System.out.println("Health 100");
     }

@@ -8,6 +8,11 @@ public class Warrior extends Hero{
     }
 
     @Override
+    public void draw() {
+        System.out.println("\uD83D\uDC82\uD83C\uDFFE");
+    }
+
+    @Override
     void health() {
         System.out.println("Health 300");
     }
